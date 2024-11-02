@@ -6,11 +6,13 @@ don=45
 print(rakib,zubayer,don)
 my_name="omar"
 print(my_name)
+role="don "
+print(role+my_name)
 #value of the variable also can be changed 
 zubayer=56
 print(zubayer)
 a = b = c = 10
-
+print(a+b)
 print(a)
 print(b)
 print(c)
