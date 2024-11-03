@@ -2,7 +2,7 @@ import pandas as pd
 import openpyxl
 import numpy
 
-olympic=pd.read_excel(r'C:\Users\omar2\Music\olympice.xlsx')
+olympic=pd.read_excel(r'D:\99 Days Code Challenge Machine Learning\DAY 1-3\olympice.xlsx')
 print(olympic)
 # This program is based on the excel program that i have provided
 #lets start the analysis
