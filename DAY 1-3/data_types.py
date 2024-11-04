@@ -32,7 +32,14 @@ print(list[-1])
 #modify the list value 
 list[2]="jihad"
 print(list[2])
+#we can also add more element or remove it
+list.append("shakib")
+list.append(1) #add element
+print(list)
+list.remove("jihad") #remove element
+print(list)
 #its time for tuple 
+
 tuple1=('Hello','world')
 print(tuple1)
 print(tuple1[1])
@@ -53,4 +60,20 @@ set1=set("dhaka international University")
 print(set1)
 set1=set(["omar","jihad","zakaria"])
 print(set1)
+set1.add('gogo') #add one element
+set1.add(34) 
+set1.update([56,'coco']) #add two element
+print(set1)
 # print(set1[1]) :it also does not work in this way
+Dict1={1:'Hello',2:'omar','capital':'Dhaka','number':[1,2,3,4,5]}
+print(Dict1)
+dict2=dict(Dict1)
+print(dict2)
+#access the element of the dictionary
+print(dict2[1])
+print(dict2[2])
+print(dict2['number'])
+print(dict2.get('capital'))
+print(dict2.get(2))
+
+
